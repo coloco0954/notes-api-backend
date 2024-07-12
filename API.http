@@ -1,0 +1,17 @@
+### Recuperar notas por id
+GET http://localhost:3000/api/notes/asdadas
+
+### Recuperamos todas las notas
+GET http://localhost:3000/api/notes
+
+### Eliminar nota
+DELETE http://localhost:3000/api/notes/5
+
+### Crear nota
+POST http://localhost:3000/api/notes/ 
+Content-Type: application/json
+
+{
+    "content": "nota de prueba",
+    "important": true
+}
