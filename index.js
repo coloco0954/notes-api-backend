@@ -17,8 +17,6 @@ app.use(cors())
 
 app.use(logger)
 
-let notes = []
-
 app.get('/', (req, res) => {
     res.send('<h1>hola mundo</h1>')
 })
